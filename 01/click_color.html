@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ja">
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <title></title>
+        <style>
+          .warning {background:red;}
+        </style>
+    </head>
+    <body>
+        <div id="text">dummy text</div>
+        <button>Change Color!!</button>
+        <script>
+            $("button").on('click',function(){
+                $("#text").fadeOut();
+            });
+        </script>
+    </body>
+</html>
